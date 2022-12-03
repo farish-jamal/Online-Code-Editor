@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.upper-div{
+    height: 45vh;
+    width: 99%;
+    display: flex;
+    margin: 5px;
+}
+.upper-div textarea{
+    flex: 1;
+    background-color: rgb(34, 32, 32);
+    color: white;
+}
+.lower-div{
+    height: 45vh;
+    width: 99%;
+    display: flex;
+    margin: 5px;
+}
+iframe{
+    flex: 1;
+}
